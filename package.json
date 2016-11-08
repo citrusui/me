@@ -1,29 +1,22 @@
 {
   "name": "citrusui.me",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "citrusui.me website",
-  "dependencies": {
-    "axinite": "0.0.11"
-  },
-  "devDependencies": {
-    "local-web-server": "^1.2.6",
-    "node-sass": "^3.11.1"
-  },
-  "scripts": {
-    "build": "npm run sass && npm run min",
-    "min": "node-sass --output-style compressed --source-map true --include-path node_modules scss/axinite.scss dist/axinite.min.css",
-    "sass": "node-sass --output-style expanded --source-map true --include-path node_modules scss/axinite.scss -o dist",
-    "serve": "ws . --port 2000",
-    "watch": "node-sass -w --include-path node_modules scss/axinite.scss  -o dist"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/citrusui/dotme.git"
+  },
+  "scripts": {
+    "build": "node-sass dotme.scss --output-style compressed -o .",
+    "watch": "node-sass dotme.scss -w --output-style compressed -o ."
   },
   "author": "Avery Magnotti",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/citrusui/dotme/issues"
   },
-  "homepage": "https://github.com/citrusui/dotme"
+  "homepage": "https://github.com/citrusui/dotme",
+  "devDependencies": {
+    "node-sass": "^3.11.2"
+  }
 }

@@ -2,6 +2,6 @@
 
 My minimal portfolio.
 
-This site was going to look more complex, but I realized it would be a huge undertaking and require more time than I currently have.
+Nothing much yet, just a showcase of my recently-active GitHub projects.
 
 Under the [MIT license](LICENSE.md).

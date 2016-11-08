@@ -1,0 +1,112 @@
+$background: #3d444c;
+$border: #a5aeb6;
+$shell: #79ce80;
+$css: #5762d5;
+$html: #e03431;
+$footer: #ccc;
+$source: #4ea5d9;
+
+html {
+  background: linear-gradient(180deg, #292e33 0%, #343b41 25%, #40484f 40%, #6e7b87 100%);
+  background-color: #292e33;
+  height: 100%;
+}
+
+body {
+  color: #f9f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, "Helvetica Neue", Roboto, "Segoe UI", sans-serif;
+}
+
+.page {
+  background-color: $background;
+  border: 2px solid $border;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px $background;
+  max-width: 50em;
+  margin: 3rem auto 3rem auto;
+  padding-bottom: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.page h1 {
+  font-size: 3rem;
+  padding-top: .5em;
+}
+
+.text {
+  line-height: 1.5;
+  margin-top: 1em;
+}
+
+.text h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.list {
+  margin-bottom: 3em;
+  margin-top: 3em;
+  padding-left: 1em;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+p, footer {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.shell {
+  color: $shell;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($shell, 10%);
+    transition: all .5s ease-out;
+  }
+}
+
+.css {
+  color: $css;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($css, 10%);
+    transition: all .5s ease-out;
+  }
+}
+
+.html {
+  color: $html;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($html, 10%);
+    transition: all .5s ease-out;
+  }
+}
+
+footer {
+  bottom: 1em;
+  color: $footer;
+  font-size: .9em;
+  left: 1em;
+  padding-right: 1em;
+  position: absolute;
+}
+
+.source {
+  color: $source;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($source, 10%);
+    transition: all .5s ease-out;
+  }
+}
