@@ -1,0 +1,13 @@
+title: citrusui dot me
+email: citrusui@users.noreply.github.com
+description:
+  - My minimal portfolio. Nothing much yet, just a showcase of my recently-active GitHub projects.
+host: 0.0.0.0
+url: "https://citrusui.me"
+twitter_username: citrusui
+github_username:  citrusui
+sass:
+  style: :compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,14 +1,10 @@
 {
   "name": "citrusui.me",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "citrusui.me website",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/citrusui/dotme.git"
-  },
-  "scripts": {
-    "build": "node-sass dotme.scss --output-style compressed -o .",
-    "watch": "node-sass dotme.scss -w --output-style compressed -o ."
   },
   "author": "Avery Magnotti",
   "license": "MIT",
@@ -16,7 +12,4 @@
     "url": "https://github.com/citrusui/dotme/issues"
   },
   "homepage": "https://github.com/citrusui/dotme",
-  "devDependencies": {
-    "node-sass": "^3.11.2"
-  }
 }
