@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include main.html %}
+</body>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+</html>

@@ -13,6 +13,7 @@ html {
   background: linear-gradient(180deg, #292e33 0%, #343b41 25%, #40484f 40%, #6e7b87 100%);
   background-color: #292e33;
   height: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -70,8 +71,8 @@ a {
   &:hover,
   &:focus,
   &:active {
-    color: darken($shell, 10%);
-    transition: all .5s ease-out;
+    color: lighten($shell, 15%);
+    transition: all .25s ease-out;
   }
 }
 
@@ -80,8 +81,8 @@ a {
   &:hover,
   &:focus,
   &:active {
-    color: darken($css, 10%);
-    transition: all .5s ease-out;
+    color: lighten($css, 15%);
+    transition: all .25s ease-out;
   }
 }
 
@@ -90,8 +91,8 @@ a {
   &:hover,
   &:focus,
   &:active {
-    color: darken($html, 10%);
-    transition: all .5s ease-out;
+    color: lighten($html, 15%);
+    transition: all .25s ease-out;
   }
 }
 
@@ -109,7 +110,7 @@ footer {
   &:hover,
   &:focus,
   &:active {
-    color: darken($source, 10%);
-    transition: all .5s ease-out;
+    color: lighten($source, 15%);
+    transition: all .25s ease-out;
   }
 }
