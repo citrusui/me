@@ -8,11 +8,11 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: .5rem;
-  color: $gray-5;
-  font-weight: 600;
-  line-height: 1.25;
   text-rendering: optimizeLegibility;
+  margin-bottom: 0.5rem;
+  font-weight: 600; /* comment */
+  color: $gray-5;
+  line-height: 1.25;
 }
 
 h1 {
