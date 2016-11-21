@@ -1,0 +1,16 @@
+os:
+  - linux
+  - osx
+language: node_js
+node_js:
+  - "6"
+rvm:
+  - "2.3"
+install:
+  - gem install jekyll
+  - npm install
+script:
+  - npm run lint
+  - jekyll serve
+notifications:
+  email: false

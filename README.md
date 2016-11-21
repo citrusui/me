@@ -1,7 +1,7 @@
 # [citrusui.me](https://citrusui.me)
 
-My minimal portfolio.
+My minimal portfolio. Clean and simple.
 
-Nothing much yet, just a showcase of my recently-active GitHub projects.
+There's a lot of tweaks and modifications to the Sass files, but for the most part, this site uses [Poole](http://getpoole.com).
 
 Under the [MIT license](LICENSE.md).
