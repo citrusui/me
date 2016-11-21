@@ -1,13 +1,22 @@
-title: citrusui dot me
-email: citrusui@users.noreply.github.com
+author: Avery Magnotti
+email: averymagnotti@outlook.com
+#host: 192.168.1.8
+#site: https://citrusui.me
 description:
-  - My minimal portfolio. Nothing much yet, just a showcase of my recently-active GitHub projects.
-host: 0.0.0.0
-url: "https://citrusui.me"
-twitter_username: citrusui
-github_username:  citrusui
+  - My minimal portfolio. Clean and simple.
+twitter: citrusui
+github: https://github.com/citrusui/me
+paypal: AveryMagnotti
+brand_color: "#4ea5d9"
 sass:
-  style: :compressed
+  sass_dir: _sass
+  style: :expanded
+cdn:
+  ga-lite: https://cdnjs.cloudflare.com/ajax/libs/ga-lite/1.1.0/ga-lite.min.js
+  turbolinks: https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js
+sri:
+  ga-lite: sha256-ajtrRiwBtHYY00ij7nHaPHhPxPSyegvxH7B/bPk7meI=
+  turbolinks: sha256-HUtkNsGc3BlCNQTNPUr5JsjW0wQFeU4nfYOEuUcxptU=
 exclude:
   - Gemfile
   - Gemfile.lock

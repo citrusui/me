@@ -1,15 +1,21 @@
 {
   "name": "citrusui.me",
-  "version": "1.0.2",
-  "description": "citrusui.me website",
+  "version": "2.0",
+  "description": "Clean and simple profile for Avery Magnotti.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/citrusui/dotme.git"
+    "url": "git+https://github.com/citrusui/me.git"
+  },
+  "scripts": {
+    "lint": "sass-lint -c .sass-lint.yml '_sass/*.scss' -v -q"
   },
   "author": "Avery Magnotti",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/citrusui/dotme/issues"
+    "url": "https://github.com/citrusui/me/issues"
   },
-  "homepage": "https://github.com/citrusui/dotme"
+  "homepage": "https://github.com/citrusui/me",
+  "devDependencies": {
+    "sass-lint": "^1.10.2"
+  }
 }

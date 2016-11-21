@@ -1,0 +1,71 @@
+// sass-lint:disable no-vendor-prefixes
+// sass-lint:disable no-misspelled-properties
+
+nav {
+  min-width: 100%;
+  min-height: 48px;
+  margin-bottom: 2.5em;
+  line-height: 48px;
+  white-space: nowrap;
+  overflow-x: auto;
+
+  a,
+  &:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 0 16px;
+    color: inherit;
+    fill: inherit;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
+  a {
+    &:active,
+    &:focus {
+      color: $blue;
+      text-decoration: none;
+      opacity: 1;
+    }
+
+    &:hover {
+      text-decoration: none;
+      opacity: .7;
+    }
+  }
+}
+
+.nav-logo {
+  svg {
+    margin-bottom: 2px;
+    vertical-align: middle;
+    fill: $body-color;
+
+    &:active {
+      opacity: 1;
+      fill: $blue;
+    }
+  }
+
+  &:hover {
+    opacity: .7;
+  }
+}
