@@ -1,18 +1,23 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="{{ site.author }}">
-<meta name="theme-color" content="{{ site.brand_color }}">
-<meta name="description" content="{{ site.description }}">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{{ site.url }}/apple-touch-icon.png">
-<meta name="twitter:site" content="@{{ site.twitter }}">
-<meta property="og:description" content="{{ site.description }}">
-<meta property="og:image" content="{{ site.url }}/apple-touch-icon.png">
-<meta property="og:title" content="{{ site.author }}">
-<meta property="og:url" content="{{ site.url }}">
-<link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
-<link rel="canonical" href="{{ site.url }}">
-<link rel="icon" href="{{ site.url }}/favicon.png">
-<link rel="mask-icon" href="{{ site.url }}/mask-icon.svg" color="{{ site.brand_color }}">
-<link rel="stylesheet" href="{{ site.url }}/dotme.css">
-<title>{% if page.title == "404" %}Page not found &middot; {{ site.author }}{% else %}{{ site.author }}{% endif %}</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="theme-color" content="{{ site.brand_color }}">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ site.url }}/apple-touch-icon.png">
+  <meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}/apple-touch-icon.png">
+  <meta property="og:title" content="{{ site.author }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
+  <link rel="canonical" href="{{ site.url }}">
+  <link rel="icon" href="{{ site.url }}/favicon.png">
+  <link rel="mask-icon" href="{{ site.url }}/mask-icon.svg" color="{{ site.brand_color }}">
+  {% capture dotme %}
+  {% include dotme.scss %}
+  {% endcapture %}
+  <style>{{ dotme | scssify }}</style>
+  <title>{% if page.title == "404" %}Page not found &middot; {{ site.author }}{% else %}{{ site.author }}{% endif %}</title>
+</head>

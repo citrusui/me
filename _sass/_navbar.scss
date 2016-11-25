@@ -1,5 +1,5 @@
-// sass-lint:disable no-vendor-prefixes
 // sass-lint:disable no-misspelled-properties
+// sass-lint:disable no-vendor-prefixes
 
 nav {
   min-width: 100%;
@@ -36,7 +36,6 @@ nav {
   flex-wrap: nowrap;
   justify-content: flex-start;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
 
   a {
     &:active,

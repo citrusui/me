@@ -1,20 +1,24 @@
 {
   "name": "citrusui.me",
-  "version": "2.0",
+  "version": "2.1.0",
   "description": "Clean and simple profile for Avery Magnotti.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/citrusui/me.git"
   },
   "scripts": {
-    "lint": "sass-lint -c .sass-lint.yml '_sass/*.scss' -v -q"
+    "dev": "export JEKYLL_ENV=development && bundle exec jekyll serve",
+    "lint": "sass-lint -c .sass-lint.yml '_sass/*.scss' -v -q",
+    "prepare": "npm run lint && npm run prod",
+    "prod": "export JEKYLL_ENV=production && bundle exec jekyll build",
+    "publish": "firebase deploy"
   },
   "author": "Avery Magnotti",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/citrusui/me/issues"
   },
-  "homepage": "https://github.com/citrusui/me",
+  "homepage": "https://citrusui.me",
   "devDependencies": {
     "sass-lint": "^1.10.2"
   }
