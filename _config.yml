@@ -1,16 +1,16 @@
+permalink: pretty
 author: Avery Magnotti
 email: averymagnotti@outlook.com
-#host: 192.168.1.8
-#site: https://citrusui.me
+url: https://citrusui.me
 description:
-  - My minimal portfolio. Clean and simple.
+  - The clean and simple portfolio of Avery Magnotti (citrusui). I make websites with modern technologies.
 twitter: citrusui
 github: https://github.com/citrusui/me
 paypal: AveryMagnotti
 brand_color: "#4ea5d9"
 sass:
   sass_dir: _sass
-  style: :expanded
+  style: :compressed
 cdn:
   ga-lite: https://cdnjs.cloudflare.com/ajax/libs/ga-lite/1.1.0/ga-lite.min.js
   turbolinks: https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js
@@ -18,5 +18,14 @@ sri:
   ga-lite: sha256-ajtrRiwBtHYY00ij7nHaPHhPxPSyegvxH7B/bPk7meI=
   turbolinks: sha256-HUtkNsGc3BlCNQTNPUr5JsjW0wQFeU4nfYOEuUcxptU=
 exclude:
+  - node_modules
+  - .hound.yml
+  - .sass-lint.yml
+  - .travis.yml
   - Gemfile
   - Gemfile.lock
+  - LICENSE.md
+  - package.json
+  - README.md
+gems:
+  - jekyll-redirect-from
