@@ -1,5 +1,10 @@
 # [citrusui.me](https://citrusui.me)
 
+# Status
+
+[![Build Status](https://travis-ci.org/citrusui/me.svg?branch=master)](https://travis-ci.org/citrusui/me)
+[![devDependencies Status](https://david-dm.org/citrusui/me/dev-status.svg)](https://david-dm.org/citrusui/me?type=dev)
+
 My minimal portfolio. Clean and simple.
 
 There's a lot of tweaks and modifications to the Sass files, but for the most part, this site uses [Poole](http://getpoole.com).

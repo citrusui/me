@@ -18,21 +18,18 @@
       {% include old.html %}
       {% endif %}
       {{ content }}
-      {% if page.title == 'main' %}
+      {% if page.title == "main" %}
       {% include buttons.html %}
       {% endif %}
     </main>
     <hr>
     <footer class="footer">
       <small>
-        &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Avery Magnotti.
+        &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%Y" }}</time> Avery Magnotti.
         <a href="{{ site.github }}">View Source.</a>
       </small>
     </footer>
   </div>
-  {% include scripts.html %}
-  {% if jekyll.environment == "production" %}
-  {% include analytics.html %}
-  {% endif %}
+  {% include touch.html %}
 </body>
 </html>

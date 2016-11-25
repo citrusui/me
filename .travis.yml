@@ -2,12 +2,9 @@ os:
   - linux
   - osx
 language: node_js
-node_js:
-  - "7"
-rvm:
-  - "2.3"
+node_js: stable
 install:
-  - gem install jekyll
+  - rvm install 2.3
   - gem install bundler
   - npm install
   - bundle install

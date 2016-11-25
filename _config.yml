@@ -13,15 +13,15 @@ sass:
   style: :compressed
 cdn:
   ga-lite: https://cdnjs.cloudflare.com/ajax/libs/ga-lite/1.1.0/ga-lite.min.js
-  turbolinks: https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js
 sri:
   ga-lite: sha256-ajtrRiwBtHYY00ij7nHaPHhPxPSyegvxH7B/bPk7meI=
-  turbolinks: sha256-HUtkNsGc3BlCNQTNPUr5JsjW0wQFeU4nfYOEuUcxptU=
 exclude:
   - node_modules
   - .hound.yml
   - .sass-lint.yml
   - .travis.yml
+  - CNAME
+  - firebase.json
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
