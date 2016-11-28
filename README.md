@@ -11,7 +11,7 @@ There's a lot of tweaks and modifications to the Sass files, but for the most pa
 
 # Scripts
 
-`npm run dev`: Runs Jekyll as `development` and watches for any changes.
+`npm run dev`: Runs Jekyll and checks for any new changes using LiveReload. Requires [extension](http://livereload.com/extensions/).
 
 `npm run lint`: Lints all Sass files in `_sass` according to rules in `.sass-lint.yml`.
 

@@ -1,4 +1,5 @@
 permalink: pretty
+incremental: true
 author: Avery Magnotti
 email: averymagnotti@outlook.com
 url: https://citrusui.me
@@ -24,8 +25,14 @@ exclude:
   - firebase.json
   - Gemfile
   - Gemfile.lock
+  - Guardfile
   - LICENSE.md
   - package.json
   - README.md
+cache:
+  bundler: true
+  directories:
+    - node_modules
+    - _site
 gems:
   - jekyll-redirect-from
