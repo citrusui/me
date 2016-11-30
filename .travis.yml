@@ -11,5 +11,10 @@ install:
 script:
   - npm run lint
   - bundle exec jekyll build
+cache:
+  bundler: true
+  directories:
+    - node_modules
+    - _site
 notifications:
   email: false
