@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Home
-image: logo.png
 ---
 <div class="posts">
   {% for post in paginator.posts %}
@@ -10,7 +8,7 @@ image: logo.png
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h1>
     <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    {{ post.content | split:'<!-- break -->' | first }}
+    {{ post.content | markdownify | split:'<!-- break -->' | first }}
     {% if post.content contains '<!-- break -->' %}
     <p><a href="{{ post.url }}">Read more…</a></p>
     {% endif %}
