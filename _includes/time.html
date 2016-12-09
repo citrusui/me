@@ -1,0 +1,9 @@
+<span class="post-date">
+  {{ page.date | date: "%B %d, %Y" }}
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+  &middot; 1 minute read
+  {% else %}
+  &middot; {{ words | divided_by:150 }} minute read
+  {% endif %}
+</span>

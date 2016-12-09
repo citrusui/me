@@ -6,7 +6,7 @@
     <div class="nav-content">
       <ul>
         <li><a class="nav-logo" href="/">{% include logo.html %}</a></li>
-        <li><a href="https://blog.citrusui.me">Blog</a></li>
+        <li><a href="/blog">Blog</a></li>
         <li><a href="https://keybase.io/citrusui">Keybase</a></li>
         <li><a href="https://github.com/citrusui">GitHub</a></li>
       </ul>
@@ -14,15 +14,17 @@
   </nav>
   <div class="container content">
     <main>
-      {% if page.old %}
-      {% include old.html %}
+      {% if page.legacy %}
+      {% include legacy.html %}
       {% endif %}
       {{ content }}
       {% if page.title == "main" %}
       {% include buttons.html %}
       {% endif %}
     </main>
+    {% if page.layout != "post"%}
     <hr>
+    {% endif %}
     <footer class="footer">
       <small>
         &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%Y" }}</time> Avery Magnotti.
