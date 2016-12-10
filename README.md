@@ -1,23 +1,21 @@
-# [citrusui.me](https://citrusui.me)
-
-# Status
+# [Avery's website](https://citrusui.me)
 
 [![Build Status](https://travis-ci.org/citrusui/me.svg?branch=master)](https://travis-ci.org/citrusui/me)
 [![devDependencies Status](https://david-dm.org/citrusui/me/dev-status.svg)](https://david-dm.org/citrusui/me?type=dev)
 
-My minimal portfolio. Clean and simple.
-
-There's a lot of tweaks and modifications to the Sass files, but for the most part, this site uses [Poole](http://getpoole.com).
+My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my [custom fork of Poole.](https://github.com/citrusui/poole)
 
 # Scripts
 
-`npm run dev`: Runs Jekyll and checks for any new changes using LiveReload. Requires [extension](http://livereload.com/extensions/).
+If you're interested in running this project locally, use the following scripts:
 
-`npm run lint`: Lints all Sass files in `_sass` according to rules in `.sass-lint.yml`.
+`npm run dev`: Runs Jekyll (with [Guard](http://guardgem.org)) and checks for any new changes using the LiveReload [extension.](http://livereload.com/extensions/)
 
-`npm run prepare`: Deploys to Firebase as production before publishing to npm. Requires npm@4.
+`npm run lint`: Lints all Sass files in `_sass/` according to rules in `.sass-lint.yml`.
 
-`npm run prod`: Runs Jekyll with the `production` environment. This overrides `localhost` in favor of `site.url`.
+`npm run prod`: Runs Jekyll (without Guard) using the `production` environment.
+
+`npm run publish`: Deploys to [Firebase](https://firebase.google.com) static hosting.
 
 ## Terms
 
