@@ -3,6 +3,7 @@ layout: post
 title: You don't need icon fonts.
 description: Why icon fonts are a not-so-good idea.
 image: fontawesome.png
+tags: developer, fonts, github, web
 ---
 
 So, after reading GitHub’s [blog post](https://github.com/blog/2112-delivering-octicons-with-svg) about serving Octicons exclusively over SVG, I started to look into what I can do for my own site, [citrusui.me](https://citrusui.me).
@@ -17,9 +18,9 @@ GitHub also noted something very important: **accessibility**. Some users use Op
 
 Luckily, SVG solves all of this. No need for stylesheets, WOFF, or special classes. Just use the following code:
 
-{% highlight html %}
+```html
 <img src=”/path/to/svg.svg” width=”yourwidth”>
-{% endhighlight %}
+```
 
 ...and you’re good to go. SVGs are really, really small. If you optimize them with SVGO, you can get each icon to less than or about a kilobyte each. They load in a *jiffy*.
 

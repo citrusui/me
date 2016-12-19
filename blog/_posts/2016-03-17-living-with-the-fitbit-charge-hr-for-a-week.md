@@ -3,6 +3,7 @@ layout: post
 title: Living with the Fitbit Charge HR for a week
 description: I review the Fitbit Charge HR after my first week of use.
 image: fitbit.png
+tags: fitbit, ios, review
 ---
 
 So, this March 10th, which happened to be my birthday, I got a sweet new gadget: the Fitbit Charge HR. I’m relatively new to the scene of smartwatches and smartbands, so, what the heck, I’ll give it a try.

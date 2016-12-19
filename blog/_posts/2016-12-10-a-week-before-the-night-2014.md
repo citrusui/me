@@ -3,6 +3,7 @@ layout: post
 title: A Week Before The Night (2014)
 description: I'm falling in love with electronic artist HOME.
 image: home.png
+tags: home, music, synthwave, vaporwave
 ---
 
 For the past few months, I've been listening to various vaporwave artists on Bandcamp, such as [Macintosh Plus (Vektroid),](https://vektroid.bandcamp.com/album/floral-shoppe) [Blank Banshee,](https://blankbanshee.bandcamp.com) and [Saint Pepsi](https://saintpepsi.bandcamp.com/music) to name a few. I'm not going to go into detail about what vaporwave is — for that, I recommend you check out this [Wikipedia article.](https://en.wikipedia.org/wiki/Vaporwave) Anyway, during my amazing discovery of vaporwave around October, I came across a song uploaded to YouTube by the name of [Resonance.](https://www.youtube.com/watch?v=8GW6sLrK40k) As I do with any new song I like, I listened to it repeatedly (in this case, 20 times) before moving on. There was just so much emotion and feeling provoked from this one song — of which I craved more. However, since I was lazy, (and busy at the time) it wasn't until a few weeks later that I properly discovered the artist behind it all, [**HOME.**](https://www.facebook.com/homemusicofficial/)
@@ -19,11 +20,11 @@ I was going to write a short story beside each track in _Before The Night_, but 
 
 I've embedded the album so you can listen for yourself. Keep in mind that you're going to need headphones at max volume to get the full experience. Sit back, relax, and free up an hour or so in your schedule. It's going to be a while.
 
-<hr>
+---
 
 <iframe style="border:0;width:100%;height:120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1728212010/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3494315798/transparent=true/"><a href="https://midwestcollective.bandcamp.com/album/before-the-night">Before The Night by HOME</a></iframe>
 
-<hr>
+---
 
 In brief, Before The Night is by far my all time favorite album by HOME. It may not be as classic as Odyssey, nor as shiny as Falling Into Place, but it evoked the most emotion out of me. I felt invigorated, melancholy, and exhausted all throughout the entirety of this album. Though the songs will remain the same, what you make of it is all up to you.
 

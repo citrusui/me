@@ -3,11 +3,12 @@ layout: post
 title: Enabling Google's Prototype Homepage Design
 description: A prototype Material Design refresh for google.com.
 image: google.png
+tags: developer, google, search, web
 ---
 
 **Update:** In my testing, it appears that either EditThisCookie or Google itself is removing the NID cookie when it is modified. This method may work for you, but only in certain circumstances.
 
-<hr>
+---
 
 The other day, I randomly stumbled upon a new design for Google's homepage. Luckily, at the time, I was able to capture all the current cookies for my session and track down the specific cause of this design change.
 

@@ -3,6 +3,7 @@ layout: post
 title: GNU vs BSD utilities on iOS
 description: A closer look at what the iosbinpack means for the future of jailbreaking.
 image: terminal.png
+tags: developer, ios, jailbreak, pangu
 ---
 
 Surprise surprise, the Apple TV can now be jailbroken again! Hooray! But that’s not why I’m writing. No, something more (or less) interesting is with this jailbreak. It doesn’t come with saurik’s core utilities from Telesphoreo, it includes binaries from [https://opensource.apple.com](https://opensource.apple.com), compiled by none other than Jonathan Levin (AKA Morpheus). I call these iOS binaries the “iosbinpack” (based on its filename, of course).

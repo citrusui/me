@@ -3,6 +3,7 @@ layout: post
 title: Moving from GitHub Pages to Firebase
 description: Why I chose Firebase over GitHub Pages for static hosting.
 image: firebase.png
+tags: github, google, jekyll, web
 ---
 
 Let me preface this by saying [GitHub Pages](https://pages.github.com) is awesome. Really. If you use it, great! If you don't, that's also great! Don't switch to or from Pages just because it's new or flashy. Assess the differences yourself, and decide which service works the best for _you_.
