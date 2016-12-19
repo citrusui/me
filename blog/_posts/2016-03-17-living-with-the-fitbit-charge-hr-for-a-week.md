@@ -10,7 +10,7 @@ So, this March 10th, which happened to be my birthday, I got a sweet new gadget:
 
 The setup was really simple. I downloaded the Fitbit app to my iPhone, created an account, and turned on Bluetooth to sync with my Charge HR. Boom. Paired. Done. It’s not the fastest sync, but that’s okay.
 
-Using the Charge HR for school was completely natural. It took me a couple hours, but I finally realized you could flick your wrist to quickly view the time. I feel like the Apple Watch stole that idea :p.
+Using the Charge HR for school was completely natural. It took me a couple hours, but I finally realized you could flick your wrist to quickly view the time. I feel like the Apple Watch stole that idea. 😛
 
 <!-- break -->
 

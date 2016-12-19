@@ -33,7 +33,7 @@ Suppose I chose to download Xcode 7.3.1 (with the iOS 9.3 SDK) and I had Theos i
 
 Assuming you already have iFile or Filza open, let's create and run a shell script. This will symlink the essential programs and headers to their appropriate places.
 
-```
+```sh
 #!/bin/bash
 ln -s /usr/bin/clang /usr/bin/cc
 ln -s /usr/bin/ranlib /usr/bin/armv7-apple-darwin11-ranlib
@@ -54,6 +54,6 @@ After that's done, you're going to want to grab the Git source code (available [
 
 Time to launch MobileTerminal. The first command you're going to run is `su`, which will ensure you have necessary permissions to build Git. The default password is `alpine` (all lowercase). Next, run `cd git` to open the Git source code directory. Finally, run the following script in MobileTerminal (replace the SDK path as necessary):
 
-```make install prefix="/usr" CFLAGS="-isysroot /path/to/iPhoneOS.sdk" LDFLAGS="-Wl,-segalign,4000" DESTDIR="/var/mobile/git-build/" NO_INSTALL_HARDLINKS="1"```
+`make install prefix="/usr" CFLAGS="-isysroot /path/to/iPhoneOS.sdk" LDFLAGS="-Wl,-segalign,4000" DESTDIR="/var/mobile/git-build/" NO_INSTALL_HARDLINKS="1"`
 
 Depending on your device, compilation time might take a few minutes. If everything went well, you should see a folder in `/var/mobile/` called `git-build`. Hooray! You built Git! Now you can package the compiled binaries into a Debian package, if you'd like.
