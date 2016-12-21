@@ -13,7 +13,7 @@
     "prod": "export JEKYLL_ENV=production && bundle exec jekyll build",
     "publish": "firebase deploy"
   },
-  "author": "Avery Magnotti",
+  "author": "Avery Magnotti <averymagnotti@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/citrusui/me/issues"
@@ -21,6 +21,7 @@
   "homepage": "https://citrusui.me",
   "devDependencies": {
     "firebase-tools": "^3.2.0",
-    "sass-lint": "^1.10.2"
+    "sass-lint": "^1.10.2",
+    "yarn": "^0.18.1"
   }
 }
