@@ -19,4 +19,4 @@ If you're interested in running this project locally, use the following scripts:
 
 ## Terms
 
-Licensed under [MIT](LICENSE.md). If you use any part of this code, please link back to this repository, thanks!
+Code licensed under [MIT,](LICENSE.md) blog posts (anything in `blog/_posts`) licensed [CC-BY-SA 4.0.](blog/LICENSE.md)
