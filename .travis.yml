@@ -1,7 +1,7 @@
 language: node_js
 node_js: stable
 install:
-  - rvm install 2.3.3
+  - rvm install 2.4.0
   - gem install bundler
   - npm install
   - bundle install
