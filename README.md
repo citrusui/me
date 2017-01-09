@@ -9,14 +9,14 @@ My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my 
 
 If you're interested in running this project locally, use the following scripts:
 
-`npm run dev`: Runs Jekyll (with [Guard](http://guardgem.org)) and checks for any new changes using the LiveReload [extension.](http://livereload.com/extensions/)
+`npm run dev`: Runs Jekyll using the `development` environment.
 
 `npm run lint`: Lints all Sass files in `_sass/` according to rules in `.sass-lint.yml`.
 
-`npm run prod`: Runs Jekyll (without Guard) using the `production` environment.
+`npm run prod`: Runs Jekyll using the `production` environment.
 
 `npm run publish`: Deploys to [Firebase](https://firebase.google.com) static hosting.
 
 ## Terms
 
-Code licensed under [MIT,](LICENSE.md) blog posts (anything in `blog/_posts`) licensed [CC-BY-SA 4.0.](blog/LICENSE.md)
+Code licensed under [MIT.](LICENSE.md) Blog posts (anything in `blog/_posts`) licensed [CC-BY-SA 4.0.](blog/LICENSE.md)
