@@ -1,6 +1,6 @@
 {
   "name": "citrusui.me",
-  "version": "2.5.4",
+  "version": "2.6.0",
   "description": "The clean and simple website of Avery Magnotti.",
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://citrusui.me",
   "devDependencies": {
     "firebase-tools": "^3.2.1",
+    "release": "^1.1.2",
     "sass-lint": "^1.10.2"
   }
 }
