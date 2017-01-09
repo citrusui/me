@@ -9,6 +9,8 @@ My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my 
 
 If you're interested in running this project locally, use the following scripts:
 
+`npm run clean`: Cleans up everything in `_site`.
+
 `npm run dev`: Runs Jekyll using the `development` environment and watches for changes.
 
 `npm run firebase`: Deploys to [Firebase](https://firebase.google.com) static hosting.
@@ -21,7 +23,7 @@ If you're interested in running this project locally, use the following scripts:
 
 `npm run prod`: Runs a Jekyll build using the `production` environment.
 
-`npm run publish`: Lints Sass files, builds a `production` site, deploys to IPFS, and finally to Firebase.
+`npm run publish`: Cleans the currently built site, lints Sass files, builds a `production` site, deploys to IPFS, and finally to Firebase.
 
 ## Terms
 
