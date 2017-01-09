@@ -9,9 +9,8 @@
   "scripts": {
     "dev": "export JEKYLL_ENV=development && bundle exec guard",
     "lint": "sass-lint -c .sass-lint.yml \"_sass/*.scss\" -v -q",
-    "prepare": "npm run lint && npm run prod",
     "prod": "export JEKYLL_ENV=production && bundle exec jekyll build",
-    "publish": "firebase deploy"
+    "publish": "npm run lint && npm run prod && firebase deploy"
   },
   "author": "Avery Magnotti <averymagnotti@outlook.com>",
   "license": "MIT",
