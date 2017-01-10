@@ -22,7 +22,7 @@ I've embedded the album so you can listen for yourself. Keep in mind that you're
 
 ---
 
-<iframe style="border:0;width:100%;height:120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1728212010/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3494315798/transparent=true/"><a href="https://midwestcollective.bandcamp.com/album/before-the-night">Before The Night by HOME</a></iframe>
+<iframe width="100%" height="130" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/67688207&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 ---
 
