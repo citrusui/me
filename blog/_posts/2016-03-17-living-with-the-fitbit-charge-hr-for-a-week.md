@@ -23,6 +23,7 @@ Anyway, back to the story: While the activity part of the Charge HR is cool, the
 There’s a few more things in the Fitbit app that I won’t get into — a meal plan and a weight tracker, which I believe require some external accessories. I don’t need those at the moment so they’re not on my dashboard.
 
 Back to syncing. Remember how said it wasn’t the fastest sync? Yeah, sync is weird. It requires Internet (which I suppose syncs to your Fitbit account?) along with Bluetooth. I’d like to be able to sync without Wi-Fi or Cellular, please.
+
 Let’s talk battery. Fitbit says the average charge for my device is about 5 days, but I’m not so sure about that. I got about 3–4 days on a single charge. That adds up to two full charges in a week. Not bad, I guess? Maybe it’s lower because I trigger the watch too much...
 
 Settings. There’s a few things you can customize! I didn’t expect that much from such a tiny device. You can change the clock face, tap gesture, quick view, and much more. I won’t go into detail on every feature, but it’s very easy to figure out. One thing I don’t understand is the “Greeting” option though. What’s this for? Does it show a message when you boot up your Charge HR? I don’t know yet — I may need to do more testing on this.
