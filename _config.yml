@@ -10,18 +10,15 @@ github: https://github.com/citrusui/me
 paypal: AveryMagnotti
 brand_color: "#4ea5d9"
 cdnjs: https://cdnjs.cloudflare.com/ajax/libs
-  jquery:
-    name: jquery
+  jquery: jquery
     version: 3.1.1
     file: jquery-3.1.1.slim
     hash: sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=
-  simple-jekyll-search:
-    name: simple-jekyll-search
+  simple-jekyll-search: simple-jekyll-search
     version: 1.1.5
     file: jekyll-search
     hash: sha256-iXpgtphmDBa2YH54QgD7ckNcZOZlW3E5+aMov5PRkeY=
-  lazysizes:
-    name: lazysizes
+  lazysizes: lazysizes
     version: 2.0.7
     file: lazysizes
     hash: sha256-5lWpzLGGPdMqO+0DUKHARGGsmfUZTuBZZDDtPmflOEw=
