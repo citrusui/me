@@ -14,8 +14,7 @@ cdnjs:
   jquery:
     name: jquery
     version: 3.1.1
-    file: jquery-3.1.1.slim
-    hash: sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=
+    hash: sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=
   simple-jekyll-search:
     name: simple-jekyll-search
     version: 1.1.5
@@ -24,7 +23,6 @@ cdnjs:
   lazysizes:
     name: lazysizes
     version: 2.0.7
-    file: lazysizes
     hash: sha256-5lWpzLGGPdMqO+0DUKHARGGsmfUZTuBZZDDtPmflOEw=
 sass:
   sass_dir: _includes/poole/_sass
