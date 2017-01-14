@@ -1,9 +1,11 @@
+os:
+  - linux
+  - osx
+dist: trusty
 language: node_js
 node_js: stable
 before_install:
-
 # Workaround for https://github.com/travis-ci/travis-ci/issues/5092
-
   - if [ -f node_modules/.bin/which ]; then mv node_modules/.bin/which node_modules/.bin/which.backup; fi
   - rvm install 2.4.0
   - if [ -f node_modules/.bin/which.backup ]; then mv node_modules/.bin/which.backup node_modules/.bin/which; fi
