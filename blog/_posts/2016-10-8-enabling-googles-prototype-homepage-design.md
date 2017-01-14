@@ -14,7 +14,7 @@ The other day, I randomly stumbled upon a new design for Google's homepage. Luck
 
 To start off, you're going need a desktop computer with [Chrome](https://www.google.com/chrome/) and [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg). Make sure you give the extension access in incognito mode via `chrome://extensions`.
 
-<!-- break -->
+<?>
 
 Now, open a new incognito window (Command-Shift-N / CTRL+SHIFT+N) and navigate to Google. Then, click on the cookie icon at the top-right of Chrome (it should be to the left of the three vertical dots).
 

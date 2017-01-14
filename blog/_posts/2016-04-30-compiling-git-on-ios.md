@@ -17,7 +17,7 @@ First, launch Cydia. If you've just jailbroken, wait for Cydia to prepare the fi
 
 You're going to need to add a repository. Tap Sources, tap add, select the text in the alert box, and paste the following URL into the alert box:
 
-<!-- break -->
+<?>
 
 `https://coolstar.org/publicrepo`
 

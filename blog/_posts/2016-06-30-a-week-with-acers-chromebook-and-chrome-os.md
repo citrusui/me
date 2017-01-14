@@ -10,7 +10,7 @@ It’s been a week since I first received Acer’s Chromebook 15.6". I’d have 
 
 Normally I wouldn’t have opted for a device in pure white, seeing as it shows dirt and debris very easily. But… it’s all right, I can live with it. A minor downside of the color would very obviously be the lid -- after a few days of use, specks of dirt seem to become very apparent. I guess I’ll have to be more careful about where I put this thing.
 
-<!-- break -->
+<?>
 
 The keyboard is well made. Coming from a Windows PC or Mac, it will take some getting used to, as Chrome OS has its own share of keyboard shortcuts to navigate through tabs and apps. One thing I wish I had here was backlit keys -- it’s a shame more laptops don’t come with them. Anyway, most people who have experience with Chromebooks will know that they lack a Caps Lock key. While this can be irritating to others, I’m happy with this change. I hardly need to SHOUT ONLINE. Before I get to the touchpad, though, I will note: I don’t like having the power button as a normal key on the keyboard. It’s awkward to press when starting up Chrome OS and I almost always accidentally hit it (at least one time) while trying to press the backspace key. Luckily, Google must have read my mind and made it so you have to hold the button for at least 3 seconds to completely shut down Chrome. I guess that’s fair.
 

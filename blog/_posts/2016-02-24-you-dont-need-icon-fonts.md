@@ -12,7 +12,7 @@ One of huge reasons to switch from icon fonts was *speed*. Every time you embed 
 
 Another reason would be the “blink” you get when loading a page with an icon font. What the browser ends up doing is loading the icons last, leaving a blank space where the icons should be until the font has finished downloading.
 
-<!-- break -->
+<?>
 
 GitHub also noted something very important: **accessibility**. Some users use OpenDyslexic, a font designed specifically for users with Dyslexia. When users override the normal fonts with OpenDyslexic, the icon font ends up not loading :(. Just blank squares in place of where the images should be.
 

@@ -12,7 +12,7 @@ The setup was really simple. I downloaded the Fitbit app to my iPhone, created a
 
 Using the Charge HR for school was completely natural. It took me a couple hours, but I finally realized you could flick your wrist to quickly view the time. I feel like the Apple Watch stole that idea. 😛
 
-<!-- break -->
+<?>
 
 Additionally, I might walk to school if the bus doesn’t come — my Fitbit automatically tracks the steps I take. Some days I have PE, where the class wears pedometers and heart rate monitors — the Charge HR does that all in one fell swoop.
 
