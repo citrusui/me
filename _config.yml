@@ -42,7 +42,6 @@ exclude:
   - README.md
 gems:
   - jekyll-feed
-  - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap

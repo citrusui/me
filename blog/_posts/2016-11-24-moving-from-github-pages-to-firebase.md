@@ -12,7 +12,7 @@ The beauty of Pages is its simplicity. Powered by [Jekyll](https://jekyllrb.com)
 
 So, why switch from GitHub Pages to [Firebase?](https://firebase.google.com) Well, it boils down to user control. There are some great Jekyll plugins out there that just can't be used with Pages because of the tight restrictions. While my main sites will be gradually moving away from Pages, I don't plan on ever making them closed source, or removing them from GitHub. Small projects like [rko-site](https://github.com/citrusui/rko-site) and [width](https://github.com/citrusui/width) will continue to be hosted on GitHub Pages.
 
-<?>
+<null></null>
 
 Here's a super simple breakdown of the benefits and limits of both services:
 

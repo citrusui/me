@@ -12,7 +12,7 @@ First things first, we're going to need the iOS SDK and Linux Toolchain. You can
 
 This tutorial assumes you are running Ubuntu 16.04 LTS. If this does not apply to you, then you may need to make some modifications to the following processes.
 
-<?>
+<null></null>
 
 OK, now that you've got the SDK and Toolchain, it's time to extract them. Suppose my home directory was `/home/citrusui`.  Create two folders in this directory called `sdks` and `toolchain`, then unzip the files to these locations accordingly.
 

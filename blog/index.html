@@ -8,8 +8,8 @@ layout: default
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h1>
     <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    {{ post.content | markdownify | split:'<?>' | first }}
-    {% if post.content contains '<?>' %}
+    {{ post.content | markdownify | split:'<null>' | first }}
+    {% if post.content contains '<null>' %}
     <p><a href="{{ post.url }}">Read more…</a></p>
     {% endif %}
   </div>
