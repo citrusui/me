@@ -1,0 +1,49 @@
+permalink: pretty
+incremental: true
+author: Avery Magnotti
+email: averymagnotti@outlook.com
+url: https://dev.citrusui.me
+description:
+  - The clean and simple website of Avery Magnotti (citrusui). I make websites with modern technologies.
+twitter: citrusui
+github: https://github.com/citrusui/me
+paypal: AveryMagnotti
+brand_color: "#4ea5d9"
+cdnjs:
+  url: https://cdnjs.cloudflare.com/ajax/libs
+  jquery:
+    name: jquery
+    version: 3.1.1
+    hash: sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=
+  simple-jekyll-search:
+    name: simple-jekyll-search
+    version: 1.1.5
+    file: jekyll-search
+    hash: sha256-iXpgtphmDBa2YH54QgD7ckNcZOZlW3E5+aMov5PRkeY=
+  lazysizes:
+    name: lazysizes
+    version: 2.0.7
+    hash: sha256-5lWpzLGGPdMqO+0DUKHARGGsmfUZTuBZZDDtPmflOEw=
+sass:
+  sass_dir: _includes/poole/_sass
+  style: :compressed
+exclude:
+  - node_modules
+  - .hound.yml
+  - .sass-lint.yml
+  - .travis.yml
+  - CNAME
+  - firebase.json
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - LICENSE.md
+  - package.json
+  - README.md
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+paginate: 4
+paginate_path: "/blog/page/:num/"

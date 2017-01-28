@@ -9,7 +9,7 @@ Hi, I'm citrusui! I love making websites with modern technologies.
 
 ### About
 
-While the bulk of my experience is in HTML, CSS, and JavaScript, I am also well-acquainted in Ruby, PHP, Shell, and Perl.
+While the bulk of my experience is in HTML, CSS, and JavaScript, I am also well-acquainted with Ruby, PHP, Shell, and Perl.
 
 ### Get in touch
 
