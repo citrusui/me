@@ -8,7 +8,7 @@ My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my 
 ## Build status
 
 | <p style="text-align:center;margin:auto">master</p> | <p style="text-align:center;margin:auto">latest</p> |
-| - |
+| - | - |
 | [![Build Status](https://travis-ci.org/citrusui/me.svg?branch=master)](https://travis-ci.org/citrusui/me) | [![Build Status](https://travis-ci.org/citrusui/me.svg?branch=latest)](https://travis-ci.org/citrusui/me) |
 
 ## Build scripts
