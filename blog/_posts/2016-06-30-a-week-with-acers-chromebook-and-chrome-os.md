@@ -3,7 +3,7 @@ layout: post
 title: A week with Acer's Chromebook and Chrome OS
 description: My experience with Acer's 15.6-inch Chromebook and Google's Chrome OS.
 image: chrome.png
-tags: chrome, developer, review
+tags: chrome developer review
 ---
 
 It’s been a week since I first received Acer’s Chromebook 15.6". I’d have to say -- I’m pleasantly surprised. Startup times are insane, the Chrome browser is solid, and the build quality is great (for a Chromebook, I suppose).

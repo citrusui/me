@@ -3,7 +3,7 @@ layout: post
 title: Compiling Git on iOS
 description: Set up a development environment on your device so you can compile Git!
 image: git.png
-tags: cydia, developer, guide, ios, jailbreak
+tags: cydia developer guide ios jailbreak
 ---
 
 Before we begin, you will need a few prerequisites:

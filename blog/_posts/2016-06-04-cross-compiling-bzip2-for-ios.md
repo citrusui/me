@@ -3,7 +3,7 @@ layout: post
 title: Cross-compiling bzip2 for iOS
 description: Learn to cross-compile bzip2 on Linux for iOS devices.
 image: bzip2.png
-tags: cydia, developer, guide, ios, jailbreak
+tags: cydia developer guide ios jailbreak
 ---
 
 As detailed in my [previous blog post](https://citrusui.me/blog/2016/04/30/compiling-git-on-ios/), I showed you how to compile Git using an on-device toolchain. Now, I'll show you how to do something similar, but instead, on Linux.

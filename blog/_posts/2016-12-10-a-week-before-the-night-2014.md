@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A Week Before The Night (2014)
+title: A week Before The Night (2014)
 description: I'm falling in love with electronic artist HOME.
 image: home.png
-tags: home, music, synthwave, vaporwave
+tags: home music synthwave vaporwave
 ---
 
 For the past few months, I've been listening to various vaporwave artists on Bandcamp, such as [Macintosh Plus (Vektroid),](https://vektroid.bandcamp.com/album/floral-shoppe) [Blank Banshee,](https://blankbanshee.bandcamp.com) and [Saint Pepsi](https://saintpepsi.bandcamp.com/music) to name a few. I'm not going to go into detail about what vaporwave is — for that, I recommend you check out this [Wikipedia article.](https://en.wikipedia.org/wiki/Vaporwave) Anyway, during my amazing discovery of vaporwave around October, I came across a song uploaded to YouTube by the name of [Resonance.](https://www.youtube.com/watch?v=8GW6sLrK40k) As I do with any new song I like, I listened to it repeatedly (in this case, 20 times) before moving on. There was just so much emotion and feeling provoked from this one song — of which I craved more. However, since I was lazy, (and busy at the time) it wasn't until a few weeks later that I properly discovered the artist behind it all, [**HOME.**](https://www.facebook.com/homemusicofficial/)
