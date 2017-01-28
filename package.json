@@ -1,6 +1,6 @@
 {
   "name": "citrusui.me",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "The clean and simple website of Avery Magnotti.",
   "repository": {
     "type": "git",
@@ -8,9 +8,9 @@
   },
   "scripts": {
     "clean": "rm -r _site/",
-    "dev": "export JEKYLL_ENV=development && bundle exec jekyll serve",
+    "dev": "bundle exec jekyll serve --config _config.dev.yml",
     "firebase": "firebase deploy",
-    "ipfs": "(ipfs daemon &) && while ! nc -z localhost 5001; do sleep 1; done && export IPFS_HASH=`ipfs add -q -r _site | tail -n1` && ipfs add -r _site && ipfs name publish $IPFS_HASH && export IPFS_PEERID=`ipfs id -f=\\<id\\>` && ipfs name resolve $IPFS_PEERID",
+    "ipfs": "(ipfs daemon &) && while ! nc -z localhost 5001; do sleep 1; done && export IPFS_HASH=`ipfs add -q -r _site | tail -n1` && ipfs add -r _site && ipfs name publish $IPFS_HASH && killall ipfs",
     "jekyll": "bundle exec jekyll build",
     "lint": "sass-lint -c .sass-lint.yml \"_sass/*.scss\" -v -q",
     "prod": "export JEKYLL_ENV=production && npm run jekyll",
@@ -24,7 +24,7 @@
   "homepage": "https://citrusui.me",
   "devDependencies": {
     "firebase-tools": "^3.2.1",
-    "release": "^1.1.2",
+    "release": "^1.1.5",
     "sass-lint": "^1.10.2"
   }
 }

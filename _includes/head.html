@@ -16,7 +16,7 @@
   <link rel="icon" href="{{ site.url }}/favicon.png">
   <link rel="mask-icon" href="{{ site.url }}/mask-icon.svg" color="{{ site.brand_color }}">
   {% capture poole %}
-  {% include poole/poole.scss %}
+  {% include poole/scss/poole.scss %}
   {% endcapture %}
   <style>{{ poole | scssify }}</style>
   <title>{% if page.title == "404" %}Page not found &middot; {{ site.author }}{% else %}{{ site.author }}{% endif %}</title>

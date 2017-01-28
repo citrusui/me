@@ -3,7 +3,7 @@ layout: post
 title: Pangu8 (for Mac)
 description: Taking a look under the hood of Pangu8 to see what it does.
 image: pangu8.png
-tags: developer, ios, jailbreak, pangu
+tags: developer ios jailbreak pangu
 ---
 
 **Update:** Pangu fixed this issue a long time ago and nobody seemed to notice it was resolved.
@@ -12,7 +12,7 @@ It you don’t already know, Pangu8 is an iOS jailbreaking tool used to install 
 
 For whatever reason, Pangu8 mysteriously broke in 2014/2015. Meaning, whenever you wanted to run the tool and jailbreak, you couldn’t.
 
-<?>
+<null></null>
 
 Pangu *resolved this* by pointing to new URLs to fetch Xcode and DeveloperDiskImage.
 

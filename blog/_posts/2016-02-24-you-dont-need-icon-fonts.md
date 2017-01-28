@@ -3,7 +3,7 @@ layout: post
 title: You don't need icon fonts.
 description: Why icon fonts are a not-so-good idea.
 image: fontawesome.png
-tags: developer, fonts, github, web
+tags: developer fonts github web
 ---
 
 So, after reading GitHub’s [blog post](https://github.com/blog/2112-delivering-octicons-with-svg) about serving Octicons exclusively over SVG, I started to look into what I can do for my own site, [citrusui.me](https://citrusui.me).
@@ -12,9 +12,9 @@ One of huge reasons to switch from icon fonts was *speed*. Every time you embed 
 
 Another reason would be the “blink” you get when loading a page with an icon font. What the browser ends up doing is loading the icons last, leaving a blank space where the icons should be until the font has finished downloading.
 
-<?>
+<null></null>
 
-GitHub also noted something very important: **accessibility**. Some users use OpenDyslexic, a font designed specifically for users with Dyslexia. When users override the normal fonts with OpenDyslexic, the icon font ends up not loading :(. Just blank squares in place of where the images should be.
+GitHub also noted something very important: **accessibility**. Some users use OpenDyslexic, a font designed specifically for users with Dyslexia. When users override the normal fonts with OpenDyslexic, the icon font ends up not loading 🙁. Just blank squares in place of where the images should be.
 
 Luckily, SVG solves all of this. No need for stylesheets, WOFF, or special classes. Just use the following code:
 

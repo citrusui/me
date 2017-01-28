@@ -1,9 +1,18 @@
 <span class="post-date">
-  {{ page.date | date: "%B %d, %Y" }}
-  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
-  &middot; 1 minute read
+  {% if page.layout == "default" %}
+  {{ post.date | date: "%B %d, %Y" }}
+  {% assign words = post.content | strip_html | number_of_words %}
   {% else %}
-  &middot; {{ words | divided_by:150 }} minute read
+  {{ page.date | date: "%B %d, %Y" }}
+  {% assign words = content | strip_html | number_of_words %}
   {% endif %}
+  {% assign absolute = words | divided_by: 200.0 %}
+  {% assign rounded = words | divided_by: 200 %}
+  {% assign diff = absolute | minus: rounded %}
+  {% if diff >= 0.5 %}
+  {% assign minutes = rounded + 1 %}
+  {% else %}
+  {% assign minutes = rounded %}
+  {% endif %}
+  &middot; {{ minutes }} minute read
 </span>

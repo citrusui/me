@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Enabling Google's Prototype Homepage Design
+title: Enabling Google's prototype homepage design
 description: A prototype Material Design refresh for google.com.
 image: google.png
-tags: developer, google, search, web
+tags: developer google search web
 ---
 
 **Update:** In my testing, it appears that either EditThisCookie or Google itself is removing the NID cookie when it is modified. This method may work for you, but only in certain circumstances.
@@ -14,7 +14,7 @@ The other day, I randomly stumbled upon a new design for Google's homepage. Luck
 
 To start off, you're going need a desktop computer with [Chrome](https://www.google.com/chrome/) and [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg). Make sure you give the extension access in incognito mode via `chrome://extensions`.
 
-<?>
+<null></null>
 
 Now, open a new incognito window (Command-Shift-N / CTRL+SHIFT+N) and navigate to Google. Then, click on the cookie icon at the top-right of Chrome (it should be to the left of the three vertical dots).
 

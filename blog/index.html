@@ -1,15 +1,17 @@
 ---
 layout: default
+blog: true
 ---
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post-preview">
     <h1 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h1>
-    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    {{ post.content | markdownify | split:'<?>' | first }}
-    {% if post.content contains '<?>' %}
+    {% include time.html %}
+    {{ post.content | markdownify | split:'<null>' | first }}
+    {% if post.content contains '<null>' %}
     <p><a href="{{ post.url }}">Read more…</a></p>
     {% endif %}
   </div>

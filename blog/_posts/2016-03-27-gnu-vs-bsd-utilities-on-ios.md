@@ -3,7 +3,7 @@ layout: post
 title: GNU vs BSD utilities on iOS
 description: A closer look at what the iosbinpack means for the future of jailbreaking.
 image: terminal.png
-tags: developer, ios, jailbreak, pangu
+tags: developer ios jailbreak pangu
 ---
 
 Surprise surprise, the Apple TV can now be jailbroken again! Hooray! But that’s not why I’m writing. No, something more (or less) interesting is with this jailbreak. It doesn’t come with saurik’s core utilities from Telesphoreo, it includes binaries from [https://opensource.apple.com](https://opensource.apple.com), compiled by none other than Jonathan Levin (AKA Morpheus). I call these iOS binaries the “iosbinpack” (based on its filename, of course).
@@ -14,7 +14,7 @@ Why is this important? Well, there are a couple of things:
 - these binaries also happen to work on watchOS
 - the tools included are from BSD, not GNU, like saurik’s
 
-<?>
+<null></null>
 
 In a nutshell, these are the tools every developer needs. It comes with a bunch of stuff, like dropbear (minimal SSH clone), jtool, procexp (Process Explorer), and the whole slew of BSD Utilities (cp, chown, gzip, etc.)
 
@@ -38,4 +38,4 @@ GNU and BSD utilities are slightly, but very different. As I said above, saurik 
 
 You can use the iosbinpack all you want — I’m not forcing you to stick with GNU. Just note that reinstalling GNU utilities will be a long and tedious process.
 
-Thanks to @ReddestDream and @parrotgeek1 for contributing to this article. I really appreciate it!
+Thanks to [ReddestDream](https://github.com/ReddestDream) and [parrotgeek1](https://github.com/parrotgeek1) for contributing to this article. I really appreciate it!
