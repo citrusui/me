@@ -1,5 +1,7 @@
 # [Avery's website](https://citrusui.me)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/citrusui/me.svg)](https://greenkeeper.io/)
+
 
 My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my [custom fork of Poole.](https://github.com/citrusui/poole)
 
