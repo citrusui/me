@@ -1,4 +1,5 @@
 ---
+title: Discontinued
 layout: default
 legacy: true
 legacy_time: "July 25, 2016"
