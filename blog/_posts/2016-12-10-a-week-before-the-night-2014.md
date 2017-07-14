@@ -22,7 +22,7 @@ I've embedded the album so you can listen for yourself. Keep in mind that you're
 
 ---
 
-<iframe width="100%" height="130" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/67688207&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=249810342/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://midwestcollective.bandcamp.com/album/odyssey">Odyssey by HOME</a></iframe>
 
 ---
 
