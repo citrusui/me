@@ -14,9 +14,16 @@ If you [haven't](https://twitter.com/iOSReleases/status/890727145487691777) [alr
 <strong>WARNING:</strong> This tutorial is not for the faint of heart! Only proceed if you are familiar with UNIX-based operating systems. I <strong>cannot</strong> provide guidance to those who are unfamiliar with the command line.
 </div>
 
-To start off, you’re going to want to fetch the OTA firmware from this [direct link.](https://secure-appldnld.apple.com/ios11.0seeds/091-23521-20170827-D4B9565E-731F-11E7-89EE-CBC601BA0AE3/com_apple_MobileAsset_SoftwareUpdate/6841e048050f1f38ecc68977bbdc76d746da6559.zip) The link is hosted by Apple and has not been tampered with.
+~~To start off, you’re going to want to fetch the OTA firmware from this [direct link.](https://secure-appldnld.apple.com/ios11.0seeds/091-23521-20170827-D4B9565E-731F-11E7-89EE-CBC601BA0AE3/com_apple_MobileAsset_SoftwareUpdate/6841e048050f1f38ecc68977bbdc76d746da6559.zip) The link is hosted by Apple and has not been tampered with.~~
 
-Once you've finished downloading the firmware, go ahead and unzip it. For the sake of brevity, I recommended you rename the folder to something more memorable, like `firmware`.
+__UPDATE:__ Apple has obfuscated the HomePod OTA so that it does not unzip properly. As the original firmware contains copyrighted content, I am unable to share it; __please do not ask.__ The original file had the following hashes:
+
+```
+SHA1: 7b3447ba4bb08efd139f74b23442e52cd19157d1
+SHA256: 4d864a6d59d83b2e09ebc54848cf73c07a737d0d602e982e995e7ed45b668a8e
+```
+
+Once you've finished ~~downloading~~ acquiring the firmware, go ahead and unzip it. For the sake of brevity, I recommended you rename the folder to something more memorable, like `firmware`.
 
 <img data-src="https://user-images.githubusercontent.com/9056756/28853854-52517698-7701-11e7-9e5e-294dcacc3f9c.png" class="lazyload">
 
