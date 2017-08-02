@@ -36,4 +36,4 @@ When the changes in [`latest`](https://github.com/citrusui/me/tree/latest) are d
 
 # Terms
 
-Code licensed under [MIT.](LICENSE.md) Blog posts (anything in [`blog/_posts`](https://github.com/citrusui/me/tree/master/blog/_posts)) licensed [CC-BY-SA 4.0.](blog/LICENSE.md)
+Code licensed under [MIT.](LICENSE.md) Blog posts (anything in [`blog/_posts`](https://github.com/citrusui/me/tree/master/blog/_posts)) licensed [CC-BY-NC-SA 4.0.](blog/LICENSE.md)
