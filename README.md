@@ -1,6 +1,5 @@
 # [Avery's website](https://citrusui.me)
 
-
 My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my [custom fork of Poole.](https://github.com/citrusui/poole)
 
 # Development
