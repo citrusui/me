@@ -57,11 +57,15 @@ Now, let’s run pbzx:
 ./pbzx < payload > payload2.xz
 ```
 
-After that’s done, we can decompress the newly-created `payload2.xz`. This will take a while. Be patient and wait for the command to finish completely:
+To decompress the newly-created `payload2.xz`, install [brew](https://brew.sh), and then install xz using the commands below:
 
 ```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install xz
 xz --decompress payload2.xz
 ```
+
+This will take a while. Be patient and wait for all of the commands to finish completely.
 
 Finally, run `ota` to extract the payload files in all their glory:
 

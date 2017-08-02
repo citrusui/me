@@ -1,13 +1,13 @@
 {
   "name": "citrusui.me",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "description": "The clean and simple website of Avery Magnotti.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/citrusui/me.git"
   },
   "scripts": {
-    "clean": "rm -r _site/",
+    "clean": "rm -rf _site/",
     "dev": "bundle exec jekyll serve --config _config.dev.yml",
     "firebase": "npm run clean && npm run prod && npx firebase deploy",
     "ipfs": "(ipfs daemon &) && while ! nc -z localhost 5001; do sleep 1; done && export IPFS_HASH=`ipfs add -q -r _site | tail -n1` && ipfs add -r _site && ipfs name publish $IPFS_HASH && killall ipfs",
