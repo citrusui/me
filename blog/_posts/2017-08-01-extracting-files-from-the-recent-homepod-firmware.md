@@ -33,12 +33,12 @@ Let's open the `firmware` folder. We're looking for a file named `payload`. Navi
 
 Ensure you have the appropriate Developer Tools installed. If you’re running macOS, open Terminal and run `sudo xcode-select --install`. I already have Xcode installed, so `xcode-select` kindly warns me with the message depicted above.
 
-To extract the `payload`, we are going to use two of Jonathon Levin's tools; [pbzx](http://www.newosxbook.com/src.jl?tree=listings&file=pbzx.c) and [ota.](http://www.newosxbook.com/src.jl?tree=listings&file=ota.c) For the sake of convenience, you may grab the tools from an unofficial [GitHub repo of mine.](https://github.com/citrusui/iOS-Utilities)
+To extract the `payload`, we are going to use two of Jonathon Levin's tools; [pbzx](http://www.newosxbook.com/src.jl?tree=listings&file=pbzx.c) and [ota.](http://www.newosxbook.com/src.jl?tree=listings&file=ota.c)  For the sake of convenience, you may grab the tools from matteyeux’s unofficial [GitHub repo.](https://github.com/matteyeux/iOS-Utilities)
 
 With the terminal window still open, clone the repository linked above with the following command:
 
 ```
-git clone https://github.com/citrusui/iOS-Utilities
+git clone https://github.com/matteyeux/iOS-Utilities
 ```
 
 Then, compile the code:
