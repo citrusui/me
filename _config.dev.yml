@@ -10,19 +10,15 @@ paypal: AveryMagnotti
 brand_color: "#1e1e1e"
 cdnjs:
   url: https://cdnjs.cloudflare.com/ajax/libs
-  jquery:
-    name: jquery
-    version: 3.1.1
-    hash: sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=
   simple-jekyll-search:
     name: simple-jekyll-search
-    version: 1.1.5
+    version: 1.1.8
     file: jekyll-search
-    hash: sha256-iXpgtphmDBa2YH54QgD7ckNcZOZlW3E5+aMov5PRkeY=
+    hash: sha256-YHAdSiDznyIEAhUYsPerIh6qoIktpxz9zJ47AtrFFGs=
   lazysizes:
     name: lazysizes
-    version: 2.0.7
-    hash: sha256-5lWpzLGGPdMqO+0DUKHARGGsmfUZTuBZZDDtPmflOEw=
+    version: 3.0.0
+    hash: sha256-3aNzF0qAl+dcYi1jq/8xNvw6wR5tzgo4AOAacEleQVk=
 sass:
   sass_dir: _includes/poole/scss
   style: :compressed
