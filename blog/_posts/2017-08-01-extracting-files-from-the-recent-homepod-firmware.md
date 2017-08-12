@@ -31,7 +31,14 @@ Let's open the `firmware` folder. We're looking for a file named `payload`. Navi
 
 <img data-src="https://user-images.githubusercontent.com/9056756/28853863-5d6b11ec-7701-11e7-9795-974385bd40a3.png">
 
-Ensure you have the appropriate Developer Tools installed. If you’re running macOS, open Terminal and run `sudo xcode-select --install`. I already have Xcode installed, so `xcode-select` kindly warns me with the message depicted above.
+Ensure you have the appropriate Developer Tools installed. On macOS, launch Terminal and run `sudo xcode-select --install`. I already have Xcode installed, so `xcode-select` kindly warns me with the message shown above.
+
+Additionally, you will need to install xz via [Homebrew](https://brew.sh) using the commands below:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install xz
+```
 
 To extract the `payload`, we are going to use two of Jonathon Levin's tools; [pbzx](http://www.newosxbook.com/src.jl?tree=listings&file=pbzx.c) and [ota.](http://www.newosxbook.com/src.jl?tree=listings&file=ota.c)  For the sake of convenience, you may grab the tools from matteyeux’s unofficial [GitHub repo.](https://github.com/matteyeux/iOS-Utilities)
 
@@ -61,15 +68,7 @@ cd ~/Downloads
 Now, let’s run pbzx:
 
 ```
-./pbzx < payload > payload2.xz
-```
-
-To decompress the newly-created `payload2.xz`, install [brew](https://brew.sh), and then install xz using the commands below:
-
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install xz
-xz --decompress payload2.xz
+./pbzx < payload > payload2
 ```
 
 This will take a while. Be patient and wait for all of the commands to finish completely.

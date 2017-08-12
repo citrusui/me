@@ -1,6 +1,6 @@
 {
   "name": "citrusui.me",
-  "version": "2.9.1",
+  "version": "2.9.2",
   "description": "The clean and simple website of Avery Magnotti.",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "lint": "npx sass-lint -c .sass-lint.yml \"_sass/*.scss\" -v -q",
     "min": "npx html-minifier --input-dir _site/ --output-dir _site/ --file-ext html --html5 --collapse-whitespace",
     "prod": "export JEKYLL_ENV=production && npm run jekyll && npm run min",
-    "prepublishOnly": "npm run clean && npm run lint && npm run prod && firebase deploy"
+    "prepublishOnly": "npm run clean && npm run lint && npm run prod && npx firebase deploy"
   },
   "author": "Avery Magnotti <averymagnotti@outlook.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://citrusui.me",
   "devDependencies": {
-    "firebase-tools": "^3.9.1",
+    "firebase-tools": "^3.9.2",
     "html-minifier": "^3.5.3",
     "sass-lint": "^1.10.2"
   }
