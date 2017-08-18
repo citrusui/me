@@ -8,13 +8,13 @@ tags: dropbox github jekyll web
 
 At the time of this writing, and perhaps for the foreseeable future, this blog’s posts are written in Markdown. There’s no WordPress, Drupal, or other CMS being used to generate this site; it’s all built locally on my machine and published to the cloud. Additionally, every change I make is saved with Git, so if I ever feel nostalgic, I can look back to [simpler times.](https://github.com/citrusui/oldblog/tree/6d140e86a3de63c91d307e2563cff24477743758)
 
-I started taking this blog seriously more than a year ago on January 2016. However, it was until until two months after where I actually started blogging with Jekyll on GitHub Pages…
+I started taking this blog seriously more than a year ago on January 2016. However, it was only until two months after where I actually started blogging with Jekyll on GitHub Pages…
 
 <null></null>
 
 In the midst of March, I went ahead and researched as much as I could about how others were bootstrapping their Jekyll blogs. At the time, [gem-based themes](https://jekyllrb.com/news/2016/07/26/jekyll-3-2-0-released/) had not yet been implemented, so I had to manually download a theme from GitHub, and unpack its contents into my blog’s root directory.
 
-That was when I discovered the Jekyll theme [Poole.](http://getpoole.com) It was clean, fast, and mobile-friendly. Though the design is very minimal, it’s perfect for anyone new to the Jekyll/GitHub Pages workflow. Even though it isn't particularly flashy, it still looks pretty darn good [with a few tweaks.](https://resir014.github.io/blog/)
+That was when I discovered the Jekyll theme [Poole.](http://getpoole.com) It was clean, fast, and mobile-friendly. Though the design is very minimal, it’s perfect for anyone new to the Jekyll/GitHub Pages workflow. Even though it isn't particularly flashy, it still looks pretty darn good [with a few tweaks.](http://hyde.getpoole.com)
 
 Since I was now dealing with Markdown, I realized all I needed to write posts with was a text editor. For the most part, [Atom](https://atom.io) did the job well. Not only did it let me render Markdown with a live preview, it let me make changes to the entirety of my Jekyll-powered Git repository.
 
