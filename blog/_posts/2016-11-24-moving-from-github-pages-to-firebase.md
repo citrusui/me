@@ -20,7 +20,7 @@ Here's a super simple breakdown of the benefits and limits of both services:
 
 **Secure.** Pages only lets you use certain plugins. This can be a great thing, since there's no risk of external plugins running malicious code. However, it limits what you can do with your site. It would be great if you could at least use plugins available from [RubyGems.](https://rubygems.org)
 
-**Friendly.** When you're using Pages, you don't need need to create a Gemfile or run `bundle install`. Every gem you want can be specified through `_config.yml`. The [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) even lets you generate a site without writing a _single line of code_!
+**Friendly.** When you're using Pages, you don't need need to create a Gemfile or run `bundle install`. Every gem you want can be specified through `_config.yml`. The [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) even lets you generate a site without writing a _single line of code!_
 
 # Firebase
 
@@ -28,7 +28,7 @@ Here's a super simple breakdown of the benefits and limits of both services:
 
 **HTTPS for custom domains.** This is, without a doubt, awesome to have. It's always been possible to use Cloudflare's DNS with GitHub Pages, which I have no problem with, but it's always nice to have official support for encryption.
 
-**Speed.** Don't get me wrong -- GitHub Pages is fast. But since it has to generate your site every time you push a commit, it takes a while for the changes to go live. With Firebase, you only need to deploy the `_site` directory and you're good to go. Even better, changes, big and small, don't need to be pushed to Git. This is crucial if you make a typo and don't want to have to wait for `git push` to finish and build your site.
+**Speed.** Don't get me wrong -- GitHub Pages is fast. But since it has to generate your site every time you push a commit, it takes a while for the changes to go live. With Firebase, you only need to deploy the `_site` directory and you're good to go. Additionally, you can rollback to a previous website deploy without even using Git! This is crucial if you accidentally break the content on your site.
 
 **Flexibility.** You don't have to use Jekyll if you don't want to. The sky's the limit. Here is a [handy list](https://www.staticgen.com) of the top static site generators.
 
