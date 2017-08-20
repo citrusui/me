@@ -1,6 +1,7 @@
 ---
 layout: default
 title: main
+description: The official website of Avery Magnotti.
 ---
 
 # Avery Magnotti

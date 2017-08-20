@@ -10,9 +10,9 @@
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:image" content="{{ site.url }}/apple-touch-icon.png">
   <meta property="og:title" content="{% if page.title == 'main' %}{{ site.alias }}{% elsif page.blog %}{{ site.alias }} blog{% else %}{{ page.title }} | {{ site.alias }}{% endif %}">
-  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '.html' }}">
   <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
-  <link rel="canonical" href="{{ site.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '.html' }}">
   <link rel="icon" href="{{ site.url }}/favicon.ico">
   <link rel="mask-icon" href="{{ site.url }}/mask-icon.svg" color="{{ site.brand_color }}">
   {% capture poole %}
@@ -20,6 +20,14 @@
   {% endcapture %}
   <style>{{ poole | scssify }}</style>
   <title>
-    {% if page.title == "main" %}{{ site.alias }}{% elsif page.blog %}{{ site.alias }} blog{% else %}{{ page.title }} | {{ site.alias }}{% endif %}
+    {% if page.title == "main" %}
+    {{ site.alias }}
+    {% elsif paginator.page > 1 %}
+    {{ site.alias }} blog | Page {{ paginator.page }}
+    {% elsif page.blog %}
+    {{ site.alias }} blog
+    {% else %}
+    {{ page.title }} | {{ site.alias }}
+    {% endif %}
   </title>
 </head>

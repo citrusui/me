@@ -1,9 +1,9 @@
 <script>document.addEventListener('touchstart', function() {});</script>
 
 <script>
-var i = document.getElementsByTagName('img');
-for (var x = 0; x < i.length; x++) {
-    i[x].classList.add('lazyload');
+var img = document.getElementsByTagName('img');
+for (var num = 0; num < img.length; num++) {
+    img[num].classList.add('lazyload');
 }
 </script>
 
@@ -14,7 +14,7 @@ SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
     searchResultTemplate: '<h3><a class="dropdown-item" href="{url}">{title}</a></h3>',
-    noResultsText: '<h3 class="message">No results found.</h3>',
+    noResultsText: '<h4 class="message">No results found.</h4>',
     json: '/search.json'
 });
 </script>
