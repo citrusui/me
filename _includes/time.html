@@ -6,13 +6,16 @@
   {{ page.date | date: "%B %d, %Y" }}
   {% assign words = content | strip_html | number_of_words %}
   {% endif %}
-  {% assign absolute = words | divided_by: 200.0 %}
-  {% assign rounded = words | divided_by: 200 %}
+  {% assign absolute = words | divided_by: 150 %}
+  {% assign rounded = words | divided_by: 150 %}
   {% assign diff = absolute | minus: rounded %}
   {% if diff >= 0.5 %}
   {% assign minutes = rounded + 1 %}
   {% else %}
   {% assign minutes = rounded %}
+  {% endif %}
+  {% if minutes == 0 %}
+  {% assign minutes = 1 %}
   {% endif %}
   &middot; {{ minutes }} minute read
 </span>

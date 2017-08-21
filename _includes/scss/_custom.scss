@@ -1,0 +1,25 @@
+// Custom tweaks for citrusui.me (dark)
+
+$gray-2: #ebe6e6;
+$gray-3: #b8b8b8;
+$gray-4: #cacaca;
+$gray-5: #dbdbdb;
+
+$blue: #76bff3;
+$white: #fff;
+
+$brand-outlook: #0078d7;
+$brand-twitter: #1da1f2;
+$brand-paypal: #009cde;
+
+$button-border: rgba(16, 22, 26, .1);
+$button-border-darker: opacify($button-border, .2);
+$button-gradient: rgba(255, 255, 255, 0);
+$button-gradient-darker: opacify($button-gradient, .1);
+$button-shadow: opacify($button-border, .1);
+
+$body-bg: #2b2b2b;
+
+$code-color: #b8c0f2;
+
+$border-color: #333;

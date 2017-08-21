@@ -16,9 +16,19 @@
   <link rel="icon" href="{{ site.url }}/favicon.ico">
   <link rel="mask-icon" href="{{ site.url }}/mask-icon.svg" color="{{ site.brand_color }}">
   {% capture poole %}
-  {% include poole/scss/poole.scss %}
+  {% include scss/poole.scss %}
   {% endcapture %}
   <style>{{ poole | scssify }}</style>
+  <noscript>
+    <style>
+    #search-input {
+      display: none;
+    }
+    #search-disabled {
+      display: inline !important;
+    }
+    </style>
+  </noscript>
   <title>
     {% if page.title == "main" %}
     {{ site.alias }}

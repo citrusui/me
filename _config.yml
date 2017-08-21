@@ -19,8 +19,9 @@ cdnjs:
     version: 3.0.0
     hash: sha256-3aNzF0qAl+dcYi1jq/8xNvw6wR5tzgo4AOAacEleQVk=
 sass:
-  sass_dir: _includes/poole/scss
+  sass_dir: _includes/scss
   style: :compressed
+include: ['_pages']
 exclude:
   - node_modules
   - .hound.yml
