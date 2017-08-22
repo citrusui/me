@@ -1,11 +1,18 @@
 <script>document.addEventListener('touchstart', function() {});</script>
 
-<script>
-var img = document.getElementsByTagName('img');
+<!-- <script>
+const img = document.getElementsByTagName('img');
 for (var num = 0; num < img.length; num++) {
-    img[num].classList.add('lazyload');
+  img[num].classList.add('lazyload');
+  if(img[num].getAttribute('src')) {
+    img[num].setAttribute('data-src', img[num].getAttribute('src'));
+    img[num].removeAttribute('src');
+  }
+  if(img[num].getAttribute('alt')) {
+    img[num].setAttribute('title', img[num].getAttribute('alt'));
+  }
 }
-</script>
+</script> -->
 
 <script src="{{ site.cdnjs.url }}/{{ site.cdnjs.simple-jekyll-search.name }}/{{ site.cdnjs.simple-jekyll-search.version }}/{{ site.cdnjs.simple-jekyll-search.file }}.min.js" integrity="{{ site.cdnjs.simple-jekyll-search.hash }}" crossorigin="anonymous"></script>
 
