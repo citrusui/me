@@ -8,7 +8,7 @@ tags: developer ios jailbreak pangu
 
 **Update:** Pangu fixed this issue a long time ago and nobody seemed to notice it was resolved.
 
-It you don’t already know, Pangu8 is an iOS jailbreaking tool used to install tweaks, apps, and themes that you get through the **Cydia Store**. Due to Apple’s strict limits on the App Store, they just don’t allow these kind of cool modifications to your device.
+If you don’t already know, Pangu8 is an iOS jailbreaking tool used to install tweaks, apps, and themes that you get through the **Cydia Store**. Due to Apple’s strict limits on the App Store, they just don’t allow these kind of cool modifications to your device.
 
 For whatever reason, Pangu8 mysteriously broke in 2014/2015. Meaning, whenever you wanted to run the tool and jailbreak, you couldn’t.
 
