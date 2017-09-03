@@ -1,38 +1,32 @@
-# [Avery's website](https://citrusui.me)
+# [citrusui.me](https://citrusui.me)
 
 My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my [custom fork of Poole.](https://github.com/citrusui/poole)
 
 # Development
 
-## Build status
+## Scripts
 
-| master | latest |
-|--------|--------|
-| [![Build Status](https://travis-ci.org/citrusui/me.svg?branch=master)](https://travis-ci.org/citrusui/me) | [![Build Status](https://travis-ci.org/citrusui/me.svg?branch=latest)](https://travis-ci.org/citrusui/me) |
-
-## Build scripts
-
-`npm run clean`: Cleans up everything in `_site`.
+`npm run clean`: Removes the `_site` folder.
 
 `npm run dev`: Runs Jekyll using the `development` environment and watches for changes.
 
 `npm run firebase`: Deploys to [Firebase](https://firebase.google.com) static hosting.
 
-`npm run ipfs`: Deploys to [IPFS.](https://ipfs.io) Requires some [setup.](https://ipfs.io/docs/getting-started/)
-
 `npm run jekyll`: Builds the current site into `_site` using Jekyll.
 
 `npm run lint`: Lints all Sass files in `_sass/` according to rules in `.sass-lint.yml`.
 
+`npm run min`: Minifies HTML output using [html-minifier.](https://www.npmjs.com/package/html-minifier)
+
 `npm run prod`: Runs a Jekyll build using the `production` environment.
 
-`npm run publish`: Cleans the currently built site, lints Sass files, builds a `production` site, deploys to IPFS, and finally to Firebase.
+`npm run publish`: Removes the previously built site, lints Sass files, builds a `production` site, minifies HTML output, and deploys to Firebase.
 
-## Website
+## Process
 
-The [`latest`](https://github.com/citrusui/me/tree/latest) branch contains the newest changes, which are highly experimental and prone to status check failures or numerous other design quirks. If a build passes all status checks, it is automatically published to [dev.citrusui.me](https://dev.citrusui.me) via [Netlify.](https://www.netlify.com)
+The [`master`](https://github.com/citrusui/me/tree/master) branch contains the newest changes and should not be considered stable. After each commit, various tests are run. If a commit passes all of its tests, it is then built and automatically published to [dev.citrusui.me](https://dev.citrusui.me) via [Netlify.](https://www.netlify.com)
 
-When the changes in [`latest`](https://github.com/citrusui/me/tree/latest) are deemed stable, a Pull Request is made merging the commits of [`latest`](https://github.com/citrusui/me/tree/latest) into the [`master`](https://github.com/citrusui/me/tree/master) branch. Shortly after, it is published to [npm](https://www.npmjs.com/package/citrusui.me) and [Firebase Hosting.](https://firebase.google.com/docs/hosting/)
+When the changes in [`master`](https://github.com/citrusui/me/tree/master) are deemed stable, the `version` key in [package.json](https://github.com/citrusui/me/blob/master/package.json) is incremented and published as a Git release tag. These changes are then published to [npm](https://www.npmjs.com/package/citrusui.me) and [Firebase Hosting.](https://firebase.google.com/docs/hosting/)
 
 # Terms
 
