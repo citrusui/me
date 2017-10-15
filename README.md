@@ -1,10 +1,12 @@
 # [citrusui.me](https://citrusui.me)
 
-My minimal portfolio and blog, powered by [Jekyll](https://jekyllrb.com) and my [custom fork of Poole.](https://github.com/citrusui/poole)
+Hello! Welcome to my open source website, powered by [Jekyll](https://jekyllrb.com) and my [custom fork of Poole.](https://github.com/citrusui/poole)
 
-# Development
+Interested in how development works? Details can be found below.
 
 ## Scripts
+
+These scripts are used to publish the site and will automatically run after every commit to Netlify.
 
 `npm run clean`: Removes the `_site` folder.
 

@@ -1,7 +1,7 @@
 <script>document.addEventListener('touchstart', function() {});</script>
 
 <script>
-const img = document.getElementsByTagName('img');
+var img = document.getElementsByTagName('img');
 for (var num = 0; num < img.length; num++) {
   if(img[num].getAttribute('data-src')) {
     img[num].setAttribute('src', img[num].getAttribute('data-src'));
