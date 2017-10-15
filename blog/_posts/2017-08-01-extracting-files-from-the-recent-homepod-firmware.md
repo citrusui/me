@@ -25,11 +25,11 @@ SHA256: 4d864a6d59d83b2e09ebc54848cf73c07a737d0d602e982e995e7ed45b668a8e
 
 Once you've finished ~~downloading~~ acquiring the firmware, go ahead and unzip it. For the sake of brevity, I recommended you rename the folder to something more memorable, like `firmware`.
 
-{% include image.html desc="The payload file." url="https://user-images.githubusercontent.com/9056756/28853854-52517698-7701-11e7-9e5e-294dcacc3f9c.png" %} 
+{% include image.html desc="The payload file." height="449" url="https://user-images.githubusercontent.com/9056756/28853854-52517698-7701-11e7-9e5e-294dcacc3f9c.png" %}
 
 Let's open the `firmware` folder. We're looking for a file named `payload`. Navigate to `firmware/AssetData/payloadv2` and you'll find the payload file. Copy this file to your Desktop or to the root of your `~/Downloads` folder.
 
-{% include image.html desc="" url="https://user-images.githubusercontent.com/9056756/28853863-5d6b11ec-7701-11e7-9795-974385bd40a3.png" %}
+{% include image.html desc="Test1" height="431" url="https://user-images.githubusercontent.com/9056756/28853863-5d6b11ec-7701-11e7-9795-974385bd40a3.png" %}
 
 Ensure you have the appropriate Developer Tools installed. On macOS, launch Terminal and run `sudo xcode-select --install`. I already have Xcode installed, so `xcode-select` kindly warns me with the message shown above.
 
@@ -55,7 +55,7 @@ cd iOS-Utilities
 make
 ```
 
-{% include image.html desc="" url="https://user-images.githubusercontent.com/9056756/28853826-258f6840-7701-11e7-816e-eb7ff01e83bb.png" %}
+{% include image.html desc="Test2" height="827" url="https://user-images.githubusercontent.com/9056756/28853826-258f6840-7701-11e7-816e-eb7ff01e83bb.png" %}
 
 At this point, you probably want to move the compiled binaries to somewhere easily accessible on your system. The following commands will move them all to your Downloads folder:
 
@@ -81,7 +81,7 @@ Finally, run `ota` to extract the payload files in all their glory:
 
 When the command finishes, you should see the following new folders. They are highlighted in blue below.
 
-{% include image.html desc="" url="https://user-images.githubusercontent.com/9056756/28853846-3fef0d9e-7701-11e7-8f1a-7b5475e032ec.png" %}
+{% include image.html desc="Test3" height="449" url="https://user-images.githubusercontent.com/9056756/28853846-3fef0d9e-7701-11e7-8f1a-7b5475e032ec.png" %}
 
 ## In Conclusion
 
