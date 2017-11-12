@@ -28,7 +28,7 @@ Here are a couple of URLs that Pangu uses in their iOS 8.0 -- 8.1 jailbreak util
 
 And if you're curious, here's a plist of the latter URL:
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">

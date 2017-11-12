@@ -1,4 +1,5 @@
 incremental: true
+highlighter: none
 author: Avery Magnotti
 alias: citrusui
 email: averymagnotti@outlook.com
@@ -9,6 +10,16 @@ paypal: AveryMagnotti
 brand_color: "#1e1e1e"
 cdnjs:
   url: https://cdnjs.cloudflare.com/ajax/libs
+  prism:
+    name: prism
+    version: 1.8.4
+    hash: sha256-MOdZTZaHYcbubI1ggZrOK+am0uoo4tNJkvcvOzTDKAk=
+  prism-bash:
+    file: prism-bash
+    hash: sha256-SCZNeXkzfrzH5HaOFT+SJ3dAe+lfCvSX0kC1e2HH8mc=
+  prism-markup:
+    file: prism-markup
+    hash: sha256-Pu+GX9gKTRsQGV4xXzGhs23IiZpBhDGsiuRguW/g3BI=
   simple-jekyll-search:
     name: simple-jekyll-search
     version: 1.1.8
@@ -16,8 +27,8 @@ cdnjs:
     hash: sha256-YHAdSiDznyIEAhUYsPerIh6qoIktpxz9zJ47AtrFFGs=
   lazysizes:
     name: lazysizes
-    version: 3.0.0
-    hash: sha256-3aNzF0qAl+dcYi1jq/8xNvw6wR5tzgo4AOAacEleQVk=
+    version: 4.0.1
+    hash: sha256-mP1tN6TUnhZRrt9JhXuwIfbGEFjCYqoB7SRE0/gcXzk=
 sass:
   sass_dir: _includes/scss
   style: :compressed
