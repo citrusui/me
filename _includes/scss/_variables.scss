@@ -5,9 +5,17 @@
 // $gray-4: #cacaca;
 // $gray-5: #dbdbdb;
 
-// $brand-outlook: #0078d7;
-// $brand-twitter: #1da1f2;
-// $brand-paypal: #009cde;
+$red-p3: color(display-p3 0.969 0.29 0.302) !default; // #f74a4d
+$orange-p3: color(display-p3 0.969 0.627 0.29) !default; // #f7a04a
+$yellow-p3: color(display-p3 0.969 0.961 0.29) !default; // #f7f54a
+$green-p3: color(display-p3 0.29 0.969 0.62) !default; // #4af79e
+$cyan-p3: color(display-p3 0.29 0.914 0.969) !default; // #4ae9f7
+$blue-p3: color(display-p3 0.29 0.631 0.969) !default; // #4aa1f7
+$brown-p3: color(display-p3 0.561 0.333 0.212) !default; // #8f5536
+
+$brand-outlook-p3: color(display-p3 0 0.471 0.843) !default; // #0078d7
+$brand-twitter-p3: color(display-p3 0.114 0.631 0.949) !default; // #1da1f2
+$brand-paypal-p3: color(display-p3 0 0.612 0.871) !default; // #009cde
 
 // $button-border: rgba(16, 22, 26, .1);
 // $button-border-darker: opacify($button-border, .2);
@@ -15,17 +23,8 @@
 // $button-gradient-darker: opacify($button-gradient, .1);
 // $button-shadow: opacify($button-border, .1);
 
-// $code-color: #b8c0f2;
+$code-color-p3: color(display-p3 0.749 0.38 0.416) !default; // #bf616a
 
 // $border-color: #333;
 
-$placeholder-svg: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 400 300'%3E%3Cline x1='0' y1='0' x2='400' y2='300' style='stroke:red;stroke-width:4px;vector-effect=non-scaling-stroke;' /%3E%3Cline x1='0' y1='300' x2='400' y2='0' style='stroke:red;stroke-width:4px;vector-effect=non-scaling-stroke' /%3E%3C/svg%3E");
-
-.placeholder {
-  box-shadow: inset 0 0 0 4px blue;
-  background: $placeholder-svg;
-  background-position: center center;
-  background-size: cover;
-  display: block;
-  width: auto;
-}
+$placeholder-svg: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 300 300'%3E%3Cline x1='0' y1='0' x2='300' y2='300' style='stroke:red;stroke-width:4px;vector-effect=non-scaling-stroke;' /%3E%3Cline x1='0' y1='300' x2='300' y2='0' style='stroke:red;stroke-width:4px;vector-effect=non-scaling-stroke' /%3E%3C/svg%3E");
