@@ -23,8 +23,8 @@
   },
   "homepage": "https://citrusui.me",
   "devDependencies": {
-    "firebase-tools": "^3.13.1",
-    "html-minifier": "^3.5.5",
-    "sass-lint": "^1.12.0"
+    "firebase-tools": "^3.17.3",
+    "html-minifier": "^3.5.8",
+    "sass-lint": "^1.12.1"
   }
 }
