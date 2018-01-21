@@ -10,7 +10,7 @@
   <meta name="twitter:site" content="@{{ site.twitter }}">
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:image" content="{{ site.url }}/apple-touch-icon.png">
-  <meta property="og:title" content="{% if page.title == 'main' %}{{ site.alias }}{% elsif page.blog %}{{ site.alias }} blog{% else %}{{ page.title }} | {{ site.alias }}{% endif %}">
+  <meta property="og:title" content="{% if page.title == 'main' %}{{ site.author }}{% elsif page.blog %}{{ site.alias }} blog{% else %}{{ page.title }} | {{ site.author }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '.html' }}">
   <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '.html' }}">
@@ -38,7 +38,7 @@
     {% elsif page.blog %}
     {{ site.author }}'s blog
     {% else %}
-    {{ site.author }}
+    {{ page.title }} | {{ site.author }}
     {% endif %}
   </title>
 </head>
