@@ -1,17 +1,22 @@
 ---
 layout: default
 title: main
-description: The official website of Avery Magnotti.
 ---
 
 # Avery Magnotti
 
-Hi, I'm citrusui! I love making websites with modern technologies.
+> Just your average human with a passion for creativity and technology.
 
-### About
+## About
 
-While the bulk of my experience is in HTML, CSS, and JavaScript, I am also well-acquainted with Ruby, PHP, Shell, and Perl.
+When I'm not busy designing websites, I spend my spare time creating [digital art](https://dribbble.com) and [making music.](https://citrusui.bandcamp.com)
 
-### Get in touch
+## Get in touch
 
-If you can, please donate to keep this site alive. Domains and hosting are not cheap.
+Like what you see? Consider donating a dollar or two. I'd appreciate it.
+
+{% include donate.html %}
+
+Found a bug or typo? Let me know and I'll get to you as soon as I can.
+
+{% include social.html %}

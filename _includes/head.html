@@ -32,13 +32,13 @@
   </noscript>
   <title>
     {% if page.title == "main" %}
-    {{ site.alias }}
+    {{ site.author }}
     {% elsif paginator.page > 1 %}
-    {{ site.alias }} blog | Page {{ paginator.page }}
+    {{ site.author }}'s blog (page {{ paginator.page }})
     {% elsif page.blog %}
-    {{ site.alias }} blog
+    {{ site.author }}'s blog
     {% else %}
-    {{ page.title }} | {{ site.alias }}
+    {{ site.author }}
     {% endif %}
   </title>
 </head>
