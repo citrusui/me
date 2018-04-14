@@ -9,7 +9,7 @@ title: main
 
 ## About
 
-When I'm not busy designing websites, I spend my spare time creating [digital art](https://dribbble.com) and [making music.](https://citrusui.bandcamp.com)
+When I'm not busy designing websites, I spend my spare time creating [digital art](https://dribbble.com/citrusui) and [making music.](https://citrusui.bandcamp.com)
 
 ## Get in touch
 
