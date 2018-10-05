@@ -5,7 +5,7 @@ title: main
 
 # Avery Magnotti
 
-> Just your average human with a passion for creativity and technology.
+> Just an average human with a passion for creativity and technology.
 
 ## About
 
